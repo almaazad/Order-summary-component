@@ -1,0 +1,113 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: #e0e8ff !important;
+    background-size: 100%;
+
+}
+@media(max-width:768px){
+    body{
+        background-image: url(images/pattern-background-mobile.svg);
+    }
+}
+.cardd {
+    width: 380px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+
+}
+
+.bg-sec {
+    background-color: rgba(192, 192, 223, 0.164);
+    border-radius: 10px;
+
+}
+
+.pmain {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 30px;
+    color: #37415a;
+}
+
+.pexplain {
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+    margin: 10px;
+    color: #989dab;
+}
+
+.music-img {
+    width: 42px;
+    height: 42px;
+}
+
+.main-img {
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-inline: 0px;
+}
+
+.btnn {
+    background-color: #392ae0;
+    border: none;
+    border-radius: 10px;
+    color: aliceblue;
+    font-weight: 500;
+    width: 100%;
+    padding: 10px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    box-shadow: 0px 5px 20px 0px #c1b7b7;
+}
+
+button.btnn:hover {
+    background-color: #766cf1;
+}
+
+.btnn2 {
+    text-decoration: none;
+    color: #747479;
+    font-weight: 700;
+    padding: 10px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+a.btnn2:hover {
+    color: #181168;
+}
+
+.pad {
+    padding-inline: 35px;
+}
+
+.chlink {
+    color: #392ae0;
+    font-weight: 600;
+}
+
+a.chlink:hover {
+    color: #766cf1;
+    text-decoration: none;
+}
+
+.pannual {
+    font-weight: bold;
+    color: #37415a;
+    margin-bottom: 5px;
+}
+
+.pmoney {
+    color: #989dab;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
